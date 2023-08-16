@@ -2,6 +2,7 @@
 body {
   margin: 20px;
   font-family: serif;
+  background-color:#E3FFF7;
 }
 
 
@@ -27,10 +28,12 @@ h1,
 bylines {
   font-family: sans-serif;
 }
-
 banner, article, footer, header, nav, section {
   font-family: SFMono-Regular, "Roboto Mono", "Lucida Console", Monaco, Courier,
     monospace;
+}
+a{
+  text-decoration: none;
 }
 
 /* Header */
@@ -59,6 +62,8 @@ header {
 }
 
 .masthead-categories-links {
+  border-top: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
   justify-content: space-between;
   list-style-type: none;
   display: flex;
@@ -129,7 +134,17 @@ header {
 
 .bs-byline {
   font-size: 14px;
-  color: var(--gray);
+}
+.bs-byline a{
+  color: #111111;
+  text-transform: uppercase;
+}
+.bs-byline a:hover{
+  color: #D231A0;
+  text-decoration: underline;
+}
+.bs-story a:hover{
+  color: #D231A0;
 }
 
 /* Styling for Big Story Related Section */
@@ -180,6 +195,17 @@ header {
 .rs-cont-byline {
   font-size: 14px;
   color: var(--gray);
+}
+.rs-cont-byline a{
+  color: #111111;
+  text-transform: uppercase;
+}
+.rs-cont-byline a:hover{
+  color: #D231A0;
+  text-decoration: underline;
+}
+.rs-cont-story a:hover{
+  color: #D231A0;
 }
 
 /* Spotlight Sections */
@@ -264,13 +290,21 @@ header {
   line-height: 1.5;
   color: var(--gray);
   margin-bottom: 10px;
+  display: none;
 }
-
 .spotlight-story-author {
   font-size: 14px;
-  color: var(--accent);
 }
-
+.spotlight-story-author a{
+  color: #111111;
+  text-transform: uppercase;
+}
+.spotlight-story-author a:hover{
+  color: #D231A0;
+}
+.spotlight-story-text-wrapper a:hover{
+  color:#D231A0;
+}
 /* Footer*/
 footer {
   display: flex;
@@ -319,7 +353,7 @@ footer {
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 768px){
   /* Header */
   header {
     flex-direction: column;
@@ -374,13 +408,12 @@ footer {
   footer {
     padding: 10px 0;
   }
-
   #menu-footer-links {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
   }
-
+}
 /* These styles are for the disclaimer -- leave them alone */
 
 .disclaimer {
@@ -388,7 +421,6 @@ footer {
   padding: 4px;
   border: 1px solid hotpink;
 }
-
 body {
   margin: 0
 }
