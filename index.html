@@ -1,378 +1,710 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon-32.png" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Rest of World &#x2d; Reporting Global Tech Stories</title>
-  <link rel="shortcut icon" type="image/png" href="/assets/favicon-32.png" />
-  
-  <!--   fonts: not hotlinked from restofworld.org -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!--   fonts: not hotlinked from restofworld.org -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Primary Meta Tags -->
+    <title>Rest of World - Reporting Global Tech Stories</title>
+    <meta
+      name="title"
+      content="Rest of World - Reporting Global Tech Stories"
+    />
+    <meta
+      name="description"
+      content="This is a project built by Techie Nerd Squad for the Kibo web development foundation mid-term project."
+    />
 
-  <!--   robots: please don't index this site -->
-  <meta name="robots" content="noindex">
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://rachamv.github.io/Rest-of-the-world-kibo-project/"
+    />
+    <meta
+      property="og:title"
+      content="Rest of World - Reporting Global Tech Stories"
+    />
+    <meta
+      property="og:description"
+      content="This is a project built by Techie Nerd Squad for the Kibo web development foundation mid-term project."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
 
-<body>
-  
-  <!--  Leave this disclaimer on the page! -->
-  <details class="disclaimer">
-    <summary>Disclaimer: This is not the real restofworld.org</summary>
-    <p></p>This is a practice project for students in <a href="https://kibo.school/trykibo">Kibo's Web Foundations Course</a>. <p>The real <a href="https://restofworld.org">restofworld.org</a> is awesome, and we're really grateful to them for letting us use their homepage as source material for learning. Thanks rest of world!</p>
-  </details>
-  
-  <header>
-    <div class="masthead-branding">
-      <a class="masthead-branding-logo" href="/">
-        rest of world
-      </a>
-      <span class="masthead-branding-tagline">
-        Reporting Global Tech Stories
-      </span>
-    </div>
-    <nav class="masthead-categories">
-      <ul class="masthead-categories-links">
-        <li class="menu-item"><a href="https://restofworld.org/e-commerce/">E-commerce</a></li>
-        <li class="menu-item"><a href="https://restofworld.org/labor/">Labor</a></li>
-        <li class="menu-item"><a href="https://restofworld.org/culture-social-media/">Culture &amp; Social Media</a>
-        </li>
-        <li class="menu-item"><a href="https://restofworld.org/series/3-minutes-with/">3 Minutes With</a></li>
-        <li class="menu-item"><a href="https://restofworld.org/collection/facebook-in-rest-of-world/">Facebook in Rest
-            of World</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://rachamv.github.io/Rest-of-the-world-kibo-project/"
+    />
+    <meta
+      property="twitter:title"
+      content="Rest of World - Reporting Global Tech Stories"
+    />
+    <meta
+      property="twitter:description"
+      content="This is a project built by Techie Nerd Squad for the Kibo web development foundation mid-term project."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
 
-  <main>
-    <section class='big-story'>
-      <article id='big-story' class="bs">
-        <a class="bs-img" href="https://restofworld.org/2022/blackouts/">
-          <div class="image-container ">
-            <img
-              src="assets/blackouts-header-scaled-1-768x432.jpeg"
-              alt="" />
-          </div>
-        </a>
-        <div class="bs-story">
-          <p class="bs-rubric rubric kicker"><span>Blackouts</span></p>
-          <a class="bs-link" href="https://restofworld.org/2022/blackouts/">
-            <h1 class="bs-hed headline">From the Arab Spring to Russian censorship: a decade of internet blackouts and
-              repression</h1>
-            <p class="bs-dek dek">Seven years, 60 countries, 935 internet shutdowns: How authoritarian regimes found an
-              off switch for dissent.</p>
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <!--   robots: please don't index this site -->
+    <meta name="robots" content="noindex" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!--  Leave this disclaimer on the page! -->
+    <details class="disclaimer">
+      <summary>Disclaimer: This is not the real restofworld.org</summary>
+      <p></p>
+      This is a practice project for students in
+      <a href="https://kibo.school/trykibo">Kibo's Web Foundations Course</a>.
+      <p>
+        The real <a href="https://restofworld.org">restofworld.org</a> is
+        awesome, and we're really grateful to them for letting us use their
+        homepage as source material for learning. Thanks rest of world!
+      </p>
+    </details>
+
+    <header>
+      <div class="masthead-branding">
+        <a class="masthead-branding-logo" href="/"> rest of world </a>
+        <span class="masthead-branding-tagline">
+          Reporting Global Tech Stories
+        </span>
+      </div>
+      <nav class="masthead-categories">
+        <ul class="masthead-categories-links">
+          <li class="menu-item">
+            <a href="https://restofworld.org/e-commerce/">E-commerce</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://restofworld.org/labor/">Labor</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://restofworld.org/culture-social-media/"
+              >Culture &amp; Social Media</a
+            >
+          </li>
+          <li class="menu-item">
+            <a href="https://restofworld.org/series/3-minutes-with/"
+              >3 Minutes With</a
+            >
+          </li>
+          <li class="menu-item">
+            <a
+              href="https://restofworld.org/collection/facebook-in-rest-of-world/"
+              >Facebook in Rest of World</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="big-story">
+        <article id="big-story" class="bs">
+          <a class="bs-img" href="https://restofworld.org/2022/blackouts/">
+            <div class="image-container">
+              <img src="assets/blackouts-header-scaled-1-768x432.jpeg" alt="" />
+            </div>
           </a>
-          <p class="bs-byline byline">By <a href="https://restofworld.org/author/peter-guest/"
-              title="Posts by Peter Guest" class="author url fn" rel="author">Peter Guest</a></p>
+          <div class="bs-story">
+            <p class="bs-rubric rubric kicker"><span>Blackouts</span></p>
+            <a class="bs-link" href="https://restofworld.org/2022/blackouts/">
+              <h1 class="bs-hed headline">
+                From the Arab Spring to Russian censorship: a decade of internet
+                blackouts and repression
+              </h1>
+              <p class="bs-dek dek">
+                Seven years, 60 countries, 935 internet shutdowns: How
+                authoritarian regimes found an off switch for dissent.
+              </p>
+            </a>
+            <p class="bs-byline byline">
+              By
+              <a
+                href="https://restofworld.org/author/peter-guest/"
+                title="Posts by Peter Guest"
+                class="author url fn"
+                rel="author"
+                >Peter Guest</a
+              >
+            </p>
+          </div>
+        </article>
+
+        <div id="big-story-related" class="rs">
+          <div class="rs-lab-cont">
+            <h2 class="rs-lab">More on blackouts:</h2>
+          </div>
+          <article class="rs-cont">
+            <div class="rs-cont-story rs-cont-story--img-off">
+              <p class="rs-rubric rubric kicker"><span>Blackouts</span></p>
+              <a
+                class="rs-cont-link"
+                href="https://restofworld.org/2022/blackouts-five-ways-to-stay-online/"
+              >
+                <h3 class="headline">
+                  Five ways to stay online during a government internet shutdown
+                </h3>
+              </a>
+              <p class="rs-cont-byline byline">
+                By
+                <a
+                  href="https://restofworld.org/author/vittoria-elliott/"
+                  title="Posts by Vittoria Elliott"
+                  class="author url fn"
+                  rel="author"
+                  >Vittoria Elliott</a
+                >
+              </p>
+            </div>
+          </article>
+          <article class="rs-cont rs-cont--n3-i1">
+            <div class="rs-cont-story rs-cont-story--img-off">
+              <p class="rs-rubric rubric kicker"><span>Blackouts</span></p>
+              <a
+                class="rs-cont-link"
+                href="https://restofworld.org/2022/blackouts-myanmar-atrocities/"
+              >
+                <h3 class="headline">
+                  Internet blackouts are hiding an ongoing human rights
+                  catastrophe
+                </h3>
+              </a>
+              <p class="rs-cont-byline byline">
+                By
+                <a
+                  href="https://restofworld.org/author/nu-nu-lusan/"
+                  title="Posts by Nu Nu Lusan"
+                  class="author url fn"
+                  rel="author"
+                  >Nu Nu Lusan</a
+                >
+                and
+                <a
+                  href="https://restofworld.org/author/emily-fishbein/"
+                  title="Posts by Emily Fishbein"
+                  class="author url fn"
+                  rel="author"
+                  >Emily Fishbein</a
+                >
+              </p>
+            </div>
+          </article>
+          <article class="rs-cont rs-cont--n3-i2">
+            <div class="rs-cont-story rs-cont-story--img-off">
+              <p class="rs-rubric rubric kicker"><span>Blackouts</span></p>
+              <a
+                class="rs-cont-link"
+                href="https://restofworld.org/2022/blackouts-kashmir-digital-economy/"
+              >
+                <h3 class="headline">
+                  “As important as water is to life”: How internet blackouts
+                  stifled Kashmir&#8217;s digital economy
+                </h3>
+              </a>
+              <p class="rs-cont-byline byline">
+                By
+                <a
+                  href="https://restofworld.org/author/zenaira-bakhsh/"
+                  title="Posts by Zenaira Bakhsh"
+                  class="author url fn"
+                  rel="author"
+                  >Zenaira Bakhsh</a
+                >
+                and
+                <a
+                  href="https://restofworld.org/author/rayan-naqash/"
+                  title="Posts by Rayan Naqash"
+                  class="author url fn"
+                  rel="author"
+                  >Rayan Naqash</a
+                >
+              </p>
+            </div>
+          </article>
         </div>
-      </article>
+      </section>
 
-      <div id='big-story-related' class='rs'>
-        <div class="rs-lab-cont">
-          <h2 class="rs-lab">More on blackouts:</h2>
+      <section class="block spotlight">
+        <header class="spotlight-header">
+          <h3 class="spotlight-header-title">
+            <a href="https://restofworld.org/series/reports/">
+              <span>Reports <span class="mono">></span></span></a
+            >
+          </h3>
+          <div class="spotlight-header-subtitle">
+            Dispatches from around the world
+          </div>
+        </header>
+        <div
+          id="spotlight-reports"
+          class="spotlight-content spotlight-content--row"
+        >
+          <article class="spotlight-story">
+            <a
+              class="spotlight-story-image-wrapper"
+              href="https://restofworld.org/2022/latin-america-startup-equity-data/"
+            >
+              <div class="image-container">
+                <img src="assets/GettyImages-1363291571-1600x900.jpeg" alt="" />
+              </div>
+            </a>
+            <div class="spotlight-story-text-wrapper">
+              <div class="spotlight-story-text">
+                <a
+                  class="spotlight-story-link"
+                  href="https://restofworld.org/2022/latin-america-startup-equity-data/"
+                >
+                  <h2 class="spotlight-story-headline headline">
+                    Latin American startups fail to grant employees stock, a
+                    Rest of World survey shows
+                  </h2>
+                  <div class="spotlight-story-dek dek">
+                    Tech companies’ stinginess with equity as compensation risks
+                    stalling the whole ecosystem.
+                  </div>
+                </a>
+                <div class="spotlight-story-author byline">
+                  By
+                  <a
+                    href="https://restofworld.org/author/leo-schwartz/"
+                    title="Posts by Leo Schwartz"
+                    class="author url fn"
+                    rel="author"
+                    >Leo Schwartz</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="spotlight-story">
+            <a
+              class="spotlight-story-image-wrapper"
+              href="https://restofworld.org/2022/monitores-camming-erotico-colombia/"
+            >
+              <div class="image-container">
+                <img
+                  src="assets/067_DSC_3468_Webcaming_Mazars_COLsmall-1.jpeg"
+                  alt=""
+                />
+              </div>
+            </a>
+            <div class="spotlight-story-text-wrapper">
+              <div class="spotlight-story-text">
+                <a
+                  class="spotlight-story-link"
+                  href="https://restofworld.org/2022/monitores-camming-erotico-colombia/"
+                >
+                  <h2 class="spotlight-story-headline headline">
+                    Los trabajadores que mantienen viva a la industria del
+                    streaming erótico
+                  </h2>
+                  <div class="spotlight-story-dek dek">
+                    En Colombia, los monitores entrenan a las modelos de
+                    webcams, traducen chats y dan apoyo técnico.
+                  </div>
+                </a>
+                <div class="spotlight-story-author byline">
+                  By
+                  <a
+                    href="https://restofworld.org/author/sophie-foggin/"
+                    title="Posts by Sophie Foggin"
+                    class="author url fn"
+                    rel="author"
+                    >Sophie Foggin</a
+                  >
+                  and
+                  <a
+                    href="https://restofworld.org/author/vittoria-elliott/"
+                    title="Posts by Vittoria Elliott"
+                    class="author url fn"
+                    rel="author"
+                    >Vittoria Elliott</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="spotlight-story">
+            <a
+              class="spotlight-story-image-wrapper"
+              href="https://restofworld.org/2022/china-censors-social-network-douban/"
+            >
+              <div class="image-container">
+                <img
+                  src="assets/GettyImages-1228633990-2800x1575.jpeg"
+                  alt="social"
+                />
+              </div>
+            </a>
+            <div class="spotlight-story-text-wrapper">
+              <div class="spotlight-story-text">
+                <a
+                  class="spotlight-story-link"
+                  href="https://restofworld.org/2022/china-censors-social-network-douban/"
+                >
+                  <h2 class="spotlight-story-headline headline">
+                    China’s most chaotic social network survived Beijing’s
+                    censors — until now
+                  </h2>
+                  <div class="spotlight-story-dek dek">
+                    Douban’s tight-knit communities have finally made it a
+                    target of Beijing’s tech crackdown.
+                  </div>
+                </a>
+                <div class="spotlight-story-author byline">
+                  By
+                  <a
+                    href="https://restofworld.org/author/viola-zhou/"
+                    title="Posts by Viola Zhou"
+                    class="author url fn"
+                    rel="author"
+                    >Viola Zhou</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
-        <article class="rs-cont">
-          <div class="rs-cont-story rs-cont-story--img-off">
-            <p class='rs-rubric rubric kicker'><span>Blackouts</span></p>
-            <a class="rs-cont-link" href="https://restofworld.org/2022/blackouts-five-ways-to-stay-online/">
-              <h3 class="headline">Five ways to stay online during a government internet shutdown</h3>
+      </section>
+
+      <section class="block spotlight">
+        <header class="spotlight-header">
+          <h3 class="spotlight-header-title">
+            <a href="https://restofworld.org/series/3-minutes-with/"
+              >3 Minutes <span>With <span class="mono">></span></span></a
+            >
+          </h3>
+          <div class="spotlight-header-subtitle">
+            Brief conversations with founders, investors, and industry experts
+          </div>
+        </header>
+        <div
+          id="spotlight-3-minutes-with"
+          class="spotlight-content spotlight-content--row"
+        >
+          <article class="spotlight-story">
+            <a
+              class="spotlight-story-image-wrapper"
+              href="https://restofworld.org/2022/mobile-operators-in-africa-need-to-be-digital-platforms-not-sim-card-merchants/"
+            >
+              <div class="image-container">
+                <img src="assets/3MW-Dalloul-SQ-768x432-1.png" alt="" />
+              </div>
             </a>
-            <p class="rs-cont-byline byline">By <a href="https://restofworld.org/author/vittoria-elliott/"
-                title="Posts by Vittoria Elliott" class="author url fn" rel="author">Vittoria Elliott</a></p>
-          </div>
-        </article>
-        <article class="rs-cont rs-cont--n3-i1">
-
-          <div class="rs-cont-story rs-cont-story--img-off">
-            <p class='rs-rubric rubric kicker'><span>Blackouts</span></p>
-            <a class="rs-cont-link" href="https://restofworld.org/2022/blackouts-myanmar-atrocities/">
-              <h3 class="headline">Internet blackouts are hiding an ongoing human rights catastrophe</h3>
+            <div class="spotlight-story-text-wrapper">
+              <div class="spotlight-story-text">
+                <a
+                  class="spotlight-story-link"
+                  href="https://restofworld.org/2022/mobile-operators-in-africa-need-to-be-digital-platforms-not-sim-card-merchants/"
+                >
+                  <h2 class="spotlight-story-headline headline">
+                    Africell&#8217;s Angola launch is an opportunity for digital
+                    services
+                  </h2>
+                  <div class="spotlight-story-dek dek">
+                    Africell's launch in Angola is an opportunity to match the
+                    country's economic ambitions, says ceo Ziad Dalloul
+                  </div>
+                </a>
+                <div class="spotlight-story-author byline">
+                  By
+                  <a
+                    href="https://restofworld.org/author/yinka-adegoke/"
+                    title="Posts by Yinka Adegoke"
+                    class="author url fn"
+                    rel="author"
+                    >Yinka Adegoke</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="spotlight-story">
+            <a
+              class="spotlight-story-image-wrapper"
+              href="https://restofworld.org/2022/being-a-successful-entrepreneur-is-the-best-job-in-the-world-says-nobrokers-amit-kumar-agarwal/"
+            >
+              <div class="image-container">
+                <img src="assets/3MW-Agarwal-SQ-768x432-1.png" alt="" />
+              </div>
             </a>
-            <p class="rs-cont-byline byline">By <a href="https://restofworld.org/author/nu-nu-lusan/"
-                title="Posts by Nu Nu Lusan" class="author url fn" rel="author">Nu Nu Lusan</a> and <a
-                href="https://restofworld.org/author/emily-fishbein/" title="Posts by Emily Fishbein"
-                class="author url fn" rel="author">Emily Fishbein</a></p>
-          </div>
-        </article>
-        <article class="rs-cont rs-cont--n3-i2">
-
-          <div class="rs-cont-story rs-cont-story--img-off">
-            <p class='rs-rubric rubric kicker'><span>Blackouts</span></p>
-            <a class="rs-cont-link" href="https://restofworld.org/2022/blackouts-kashmir-digital-economy/">
-              <h3 class="headline">“As important as water is to life”: How internet blackouts stifled Kashmir&#8217;s
-                digital economy</h3>
+            <div class="spotlight-story-text-wrapper">
+              <div class="spotlight-story-text">
+                <a
+                  class="spotlight-story-link"
+                  href="https://restofworld.org/2022/being-a-successful-entrepreneur-is-the-best-job-in-the-world-says-nobrokers-amit-kumar-agarwal/"
+                >
+                  <h2 class="spotlight-story-headline headline">
+                    India&#8217;s real estate tech unicorn NoBroker talks
+                    entrepreneurship
+                  </h2>
+                  <div class="spotlight-story-dek dek">
+                    The founder of the Indian real estate tech unicorn says
+                    NoBroker is adding 500,000 new customers every month.
+                  </div>
+                </a>
+                <div class="spotlight-story-author byline">
+                  By
+                  <a
+                    href="https://restofworld.org/author/itika-sharma-punit/"
+                    title="Posts by Itika Sharma Punit"
+                    class="author url fn"
+                    rel="author"
+                    >Itika Sharma Punit</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="spotlight-story">
+            <a
+              class="spotlight-story-image-wrapper"
+              href="https://restofworld.org/2022/fashion-will-drive-an-african-e-commerce-boom-says-losodes-ajose-adeyemi/"
+            >
+              <div class="image-container">
+                <img src="assets/Adeyemi-logo-768x432.png" alt="" />
+              </div>
             </a>
-            <p class="rs-cont-byline byline">By <a href="https://restofworld.org/author/zenaira-bakhsh/"
-                title="Posts by Zenaira Bakhsh" class="author url fn" rel="author">Zenaira Bakhsh</a> and <a
-                href="https://restofworld.org/author/rayan-naqash/" title="Posts by Rayan Naqash" class="author url fn"
-                rel="author">Rayan Naqash</a></p>
+            <div class="spotlight-story-text-wrapper">
+              <div class="spotlight-story-text">
+                <a
+                  class="spotlight-story-link"
+                  href="https://restofworld.org/2022/fashion-will-drive-an-african-e-commerce-boom-says-losodes-ajose-adeyemi/"
+                >
+                  <h2 class="spotlight-story-headline headline">
+                    African e&#x2d;commerce will be driven by fashion says
+                    Losode founder
+                  </h2>
+                  <div class="spotlight-story-dek dek">
+                    The Nigerian startup is tackling the challenge of online
+                    payments by developing its own platform, LosodePay.
+                  </div>
+                </a>
+                <div class="spotlight-story-author byline">
+                  By
+                  <a
+                    href="https://restofworld.org/author/yinka-adegoke/"
+                    title="Posts by Yinka Adegoke"
+                    class="author url fn"
+                    rel="author"
+                    >Yinka Adegoke</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="block spotlight">
+        <header class="spotlight-header">
+          <h3 class="spotlight-header-title">
+            <a href="https://restofworld.org/series/features/">
+              <span>Features <span class="mono">></span></span></a
+            >
+          </h3>
+          <div class="spotlight-header-subtitle">
+            Deep dives into technology and human behavior:
           </div>
-        </article>
+        </header>
+        <div
+          id="spotlight-features"
+          class="spotlight-content spotlight-content--row"
+        >
+          <article class="spotlight-story">
+            <a
+              class="spotlight-story-image-wrapper"
+              href="https://restofworld.org/2022/quantum-motors-bolivia-electric-cars/"
+            >
+              <div class="image-container">
+                <img
+                  src="assets/DSC6956-Quantum-EVs-4-RoW-768x432.jpeg"
+                  alt=""
+                />
+              </div>
+            </a>
+            <div class="spotlight-story-text-wrapper">
+              <div class="spotlight-story-text">
+                <div class="spotlight-story-dateline kicker rubric">
+                  <a href="/series/features">Features</a>
+                </div>
+                <a
+                  class="spotlight-story-link"
+                  href="https://restofworld.org/2022/quantum-motors-bolivia-electric-cars/"
+                >
+                  <h2 class="spotlight-story-headline headline">
+                    The bumpy road to tiny electric cars
+                  </h2>
+                  <div class="spotlight-story-dek dek">
+                    Bolivian startup Quantum Motors makes tiny EVs aimed at the
+                    Latin American masses. Will they buy it?
+                  </div>
+                </a>
+                <div class="spotlight-story-author byline">
+                  By
+                  <a
+                    href="https://restofworld.org/author/thomas-graham/"
+                    title="Posts by Thomas Graham"
+                    class="author url fn"
+                    rel="author"
+                    >Thomas Graham</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="spotlight-story">
+            <a
+              class="spotlight-story-image-wrapper"
+              href="https://restofworld.org/2022/online-shopping-in-the-middle-of-the-ocean/"
+            >
+              <div class="image-container">
+                <img
+                  src="assets/E-COMMERCE20220325_0037-1-768x432.jpeg"
+                  alt=""
+                />
+              </div>
+            </a>
+            <div class="spotlight-story-text-wrapper">
+              <div class="spotlight-story-text">
+                <div class="spotlight-story-dateline kicker rubric">
+                  <a href="/series/features">Features</a>
+                </div>
+                <a
+                  class="spotlight-story-link"
+                  href="https://restofworld.org/2022/online-shopping-in-the-middle-of-the-ocean/"
+                >
+                  <h2 class="spotlight-story-headline headline">
+                    E&#x2d;commerce giants didn&#8217;t deliver. So these
+                    islanders built their own online shopping ecosystem
+                  </h2>
+                  <div class="spotlight-story-dek dek">
+                    Local couriers are making online delivery possible in French
+                    Polynesia's 118 atolls and islands in the Pacific Ocean.
+                  </div>
+                </a>
+                <div class="spotlight-story-author byline">
+                  By
+                  <a
+                    href="https://restofworld.org/author/tiare-tuuhia/"
+                    title="Posts by Tiare Tuuhia"
+                    class="author url fn"
+                    rel="author"
+                    >Tiare Tuuhia</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="spotlight-story">
+            <a
+              class="spotlight-story-image-wrapper"
+              href="https://restofworld.org/2022/el-salvador-bitcoin-resultados/"
+            >
+              <div class="image-container">
+                <img
+                  src="assets/d211120_Juan_Carlos_slv02180-1-768x432.jpeg"
+                  alt=""
+                />
+              </div>
+            </a>
+            <div class="spotlight-story-text-wrapper">
+              <div class="spotlight-story-text">
+                <div class="spotlight-story-dateline kicker rubric">
+                  <a href="/series/features">Features</a>
+                </div>
+                <a
+                  class="spotlight-story-link"
+                  href="https://restofworld.org/2022/el-salvador-bitcoin-resultados/"
+                >
+                  <h2 class="spotlight-story-headline headline">
+                    La apuesta de El Salvador por Bitcoin a los seis meses
+                  </h2>
+                  <div class="spotlight-story-dek dek">
+                    Mientras el país se prepara para lanzar su “bono Bitcoin”,
+                    entrevistas con ciudadanos, economistas y tecnólogos revelan
+                    las grietas en la criptorrevolución salvadoreña.
+                  </div>
+                </a>
+                <div class="spotlight-story-author byline">
+                  By
+                  <a
+                    href="https://restofworld.org/author/anna-cat-brigida/"
+                    title="Posts by Anna-Cat Brigida"
+                    class="author url fn"
+                    rel="author"
+                    >Anna-Cat Brigida</a
+                  >
+                  and
+                  <a
+                    href="https://restofworld.org/author/leo-schwartz/"
+                    title="Posts by Leo Schwartz"
+                    class="author url fn"
+                    rel="author"
+                    >Leo Schwartz</a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-branding">
+        <a class="footer-branding-logo" href="/"> rest of world </a>
       </div>
-    </section>
-
-    <section class='block spotlight'>
-      <header class="spotlight-header">
-        <h3 class="spotlight-header-title"><a href="https://restofworld.org/series/reports/"> <span>Reports <span
-                class="mono">></span></span></a></h3>
-        <div class='spotlight-header-subtitle'>Dispatches from around the world</div>
-      </header>
-      <div id='spotlight-reports' class="spotlight-content spotlight-content--row">
-        <article class="spotlight-story">
-          <a class="spotlight-story-image-wrapper"
-            href="https://restofworld.org/2022/latin-america-startup-equity-data/">
-            <div class="image-container ">
-              <img
-                src='assets/GettyImages-1363291571-1600x900.jpeg'
-                alt="" />
-            </div>
-          </a>
-          <div class="spotlight-story-text-wrapper">
-            <div class="spotlight-story-text">
-              <a class="spotlight-story-link" href="https://restofworld.org/2022/latin-america-startup-equity-data/">
-                <h2 class="spotlight-story-headline headline">Latin American startups fail to grant employees stock, a
-                  Rest of World survey shows</h2>
-                <div class="spotlight-story-dek dek">Tech companies’ stinginess with equity as compensation risks
-                  stalling the whole ecosystem.</div>
-              </a>
-              <div class="spotlight-story-author byline">By <a href="https://restofworld.org/author/leo-schwartz/"
-                  title="Posts by Leo Schwartz" class="author url fn" rel="author">Leo Schwartz</a></div>
-            </div>
-          </div>
-        </article>
-        <article class="spotlight-story">
-          <a class="spotlight-story-image-wrapper"
-            href="https://restofworld.org/2022/monitores-camming-erotico-colombia/">
-            <div class="image-container ">
-              <img
-                src='assets/067_DSC_3468_Webcaming_Mazars_COLsmall-1.jpeg'
-                alt="" />
-            </div>
-          </a>
-          <div class="spotlight-story-text-wrapper">
-            <div class="spotlight-story-text">
-              <a class="spotlight-story-link" href="https://restofworld.org/2022/monitores-camming-erotico-colombia/">
-                <h2 class="spotlight-story-headline headline">Los trabajadores que mantienen viva a la industria del
-                  streaming erótico</h2>
-                <div class="spotlight-story-dek dek">En Colombia, los monitores entrenan a las modelos de webcams,
-                  traducen chats y dan apoyo técnico.</div>
-              </a>
-              <div class="spotlight-story-author byline">By <a href="https://restofworld.org/author/sophie-foggin/"
-                  title="Posts by Sophie Foggin" class="author url fn" rel="author">Sophie Foggin</a> and <a
-                  href="https://restofworld.org/author/vittoria-elliott/" title="Posts by Vittoria Elliott"
-                  class="author url fn" rel="author">Vittoria Elliott</a></div>
-            </div>
-          </div>
-        </article>
-        <article class="spotlight-story">
-          <a class="spotlight-story-image-wrapper"
-            href="https://restofworld.org/2022/china-censors-social-network-douban/">
-            <div class="image-container ">
-              <img
-                src='assets/GettyImages-1228633990-2800x1575.jpeg'
-                alt="social" />
-            </div>
-          </a>
-          <div class="spotlight-story-text-wrapper">
-            <div class="spotlight-story-text">
-              <a class="spotlight-story-link" href="https://restofworld.org/2022/china-censors-social-network-douban/">
-                <h2 class="spotlight-story-headline headline">China’s most chaotic social network survived Beijing’s
-                  censors — until now</h2>
-                <div class="spotlight-story-dek dek">Douban’s tight-knit communities have finally made it a target of
-                  Beijing’s tech crackdown.</div>
-              </a>
-              <div class="spotlight-story-author byline">By <a href="https://restofworld.org/author/viola-zhou/"
-                  title="Posts by Viola Zhou" class="author url fn" rel="author">Viola Zhou</a></div>
-            </div>
-          </div>
-        </article>
+      <div class="footer-menu">
+        <ul id="menu-footer-links" class="menu">
+          <li class="menu-item">
+            <a href="https://restofworld.org/about/">About us</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://restofworld.org/about/hiring/">Jobs</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://restofworld.org/about/privacy-policy/"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="menu-item">
+            <a href="https://restofworld.org/platforms/">Platforms</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://restofworld.org/newsletters/">Newsletters</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://restofworld.org/labs/">Labs</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://restofworld.org/about/contact-us/">Contact us</a>
+          </li>
+        </ul>
       </div>
-    </section>
-
-    <section class='block spotlight'>
-      <header class="spotlight-header">
-        <h3 class="spotlight-header-title"><a href="https://restofworld.org/series/3-minutes-with/">3 Minutes <span>With
-              <span class="mono">></span></span></a></h3>
-        <div class='spotlight-header-subtitle'>Brief conversations with founders, investors, and industry experts </div>
-      </header>
-      <div id='spotlight-3-minutes-with' class="spotlight-content spotlight-content--row">
-        <article class="spotlight-story">
-          <a class="spotlight-story-image-wrapper"
-            href="https://restofworld.org/2022/mobile-operators-in-africa-need-to-be-digital-platforms-not-sim-card-merchants/">
-            <div class="image-container ">
-              <img src='assets/3MW-Dalloul-SQ-768x432-1.png'
-                alt="" />
-            </div>
-          </a>
-          <div class="spotlight-story-text-wrapper">
-            <div class="spotlight-story-text">
-              <a class="spotlight-story-link"
-                href="https://restofworld.org/2022/mobile-operators-in-africa-need-to-be-digital-platforms-not-sim-card-merchants/">
-                <h2 class="spotlight-story-headline headline">Africell&#8217;s Angola launch is an opportunity for
-                  digital services</h2>
-                <div class="spotlight-story-dek dek">Africell's launch in Angola is an opportunity to match the
-                  country's economic ambitions, says ceo Ziad Dalloul</div>
-              </a>
-              <div class="spotlight-story-author byline">By <a href="https://restofworld.org/author/yinka-adegoke/"
-                  title="Posts by Yinka Adegoke" class="author url fn" rel="author">Yinka Adegoke</a></div>
-            </div>
-          </div>
-        </article>
-        <article class="spotlight-story">
-          <a class="spotlight-story-image-wrapper"
-            href="https://restofworld.org/2022/being-a-successful-entrepreneur-is-the-best-job-in-the-world-says-nobrokers-amit-kumar-agarwal/">
-            <div class="image-container ">
-              <img src='assets/3MW-Agarwal-SQ-768x432-1.png'
-                alt="" />
-            </div>
-          </a>
-          <div class="spotlight-story-text-wrapper">
-            <div class="spotlight-story-text">
-              <a class="spotlight-story-link"
-                href="https://restofworld.org/2022/being-a-successful-entrepreneur-is-the-best-job-in-the-world-says-nobrokers-amit-kumar-agarwal/">
-                <h2 class="spotlight-story-headline headline">India&#8217;s real estate tech unicorn NoBroker talks
-                  entrepreneurship</h2>
-                <div class="spotlight-story-dek dek">The founder of the Indian real estate tech unicorn says NoBroker
-                  is adding 500,000 new customers every month.</div>
-              </a>
-              <div class="spotlight-story-author byline">By <a href="https://restofworld.org/author/itika-sharma-punit/"
-                  title="Posts by Itika Sharma Punit" class="author url fn" rel="author">Itika Sharma Punit</a></div>
-            </div>
-          </div>
-        </article>
-        <article class="spotlight-story">
-          <a class="spotlight-story-image-wrapper"
-            href="https://restofworld.org/2022/fashion-will-drive-an-african-e-commerce-boom-says-losodes-ajose-adeyemi/">
-            <div class="image-container ">
-              <img src='assets/Adeyemi-logo-768x432.png'
-                alt="" />
-            </div>
-          </a>
-          <div class="spotlight-story-text-wrapper">
-            <div class="spotlight-story-text">
-
-              <a class="spotlight-story-link"
-                href="https://restofworld.org/2022/fashion-will-drive-an-african-e-commerce-boom-says-losodes-ajose-adeyemi/">
-                <h2 class="spotlight-story-headline headline">African e&#x2d;commerce will be driven by fashion says
-                  Losode founder</h2>
-                <div class="spotlight-story-dek dek">The Nigerian startup is tackling the challenge of online payments
-                  by developing its own platform, LosodePay.</div>
-              </a>
-              <div class="spotlight-story-author byline">By <a href="https://restofworld.org/author/yinka-adegoke/"
-                  title="Posts by Yinka Adegoke" class="author url fn" rel="author">Yinka Adegoke</a></div>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class='block spotlight'>
-      <header class="spotlight-header">
-        <h3 class="spotlight-header-title"><a href="https://restofworld.org/series/features/"> <span>Features <span
-                class="mono">></span></span></a></h3>
-        <div class='spotlight-header-subtitle'>Deep dives into technology and human behavior:</div>
-      </header>
-      <div id='spotlight-features' class="spotlight-content spotlight-content--row">
-        <article class="spotlight-story">
-          <a class="spotlight-story-image-wrapper"
-            href="https://restofworld.org/2022/quantum-motors-bolivia-electric-cars/">
-            <div class="image-container ">
-              <img
-                src='assets/DSC6956-Quantum-EVs-4-RoW-768x432.jpeg'
-                alt="" />
-            </div>
-          </a>
-          <div class="spotlight-story-text-wrapper">
-            <div class="spotlight-story-text">
-              <div class='spotlight-story-dateline kicker rubric'><a href='/series/features'>Features</a></div>
-              <a class="spotlight-story-link" href="https://restofworld.org/2022/quantum-motors-bolivia-electric-cars/">
-                <h2 class="spotlight-story-headline headline">The bumpy road to tiny electric cars</h2>
-                <div class="spotlight-story-dek dek">Bolivian startup Quantum Motors makes tiny EVs aimed at the Latin
-                  American masses. Will they buy it?</div>
-              </a>
-              <div class="spotlight-story-author byline">By <a href="https://restofworld.org/author/thomas-graham/"
-                  title="Posts by Thomas Graham" class="author url fn" rel="author">Thomas Graham</a></div>
-            </div>
-          </div>
-        </article>
-        <article class="spotlight-story">
-          <a class="spotlight-story-image-wrapper"
-            href="https://restofworld.org/2022/online-shopping-in-the-middle-of-the-ocean/">
-            <div class="image-container ">
-              <img
-                src='assets/E-COMMERCE20220325_0037-1-768x432.jpeg'
-                alt="" />
-            </div>
-          </a>
-          <div class="spotlight-story-text-wrapper">
-            <div class="spotlight-story-text">
-              <div class='spotlight-story-dateline kicker rubric'><a href='/series/features'>Features</a></div>
-              <a class="spotlight-story-link"
-                href="https://restofworld.org/2022/online-shopping-in-the-middle-of-the-ocean/">
-                <h2 class="spotlight-story-headline headline">E&#x2d;commerce giants didn&#8217;t deliver. So these
-                  islanders built their own online shopping ecosystem</h2>
-                <div class="spotlight-story-dek dek">Local couriers are making online delivery possible in French
-                  Polynesia's 118 atolls and islands in the Pacific Ocean.</div>
-              </a>
-              <div class="spotlight-story-author byline">By <a href="https://restofworld.org/author/tiare-tuuhia/"
-                  title="Posts by Tiare Tuuhia" class="author url fn" rel="author">Tiare Tuuhia</a></div>
-            </div>
-          </div>
-        </article>
-        <article class="spotlight-story">
-          <a class="spotlight-story-image-wrapper" href="https://restofworld.org/2022/el-salvador-bitcoin-resultados/">
-            <div class="image-container ">
-              <img
-                src='assets/d211120_Juan_Carlos_slv02180-1-768x432.jpeg'
-                alt="" />
-            </div>
-          </a>
-          <div class="spotlight-story-text-wrapper">
-            <div class="spotlight-story-text">
-              <div class='spotlight-story-dateline kicker rubric'><a href='/series/features'>Features</a></div>
-              <a class="spotlight-story-link" href="https://restofworld.org/2022/el-salvador-bitcoin-resultados/">
-                <h2 class="spotlight-story-headline headline">La apuesta de El Salvador por Bitcoin a los seis meses
-                </h2>
-                <div class="spotlight-story-dek dek">Mientras el país se prepara para lanzar su “bono Bitcoin”,
-                  entrevistas con ciudadanos, economistas y tecnólogos revelan las grietas en la criptorrevolución
-                  salvadoreña.</div>
-              </a>
-              <div class="spotlight-story-author byline">By <a href="https://restofworld.org/author/anna-cat-brigida/"
-                  title="Posts by Anna-Cat Brigida" class="author url fn" rel="author">Anna-Cat Brigida</a> and <a
-                  href="https://restofworld.org/author/leo-schwartz/" title="Posts by Leo Schwartz"
-                  class="author url fn" rel="author">Leo Schwartz</a></div>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-branding">
-      <a class="footer-branding-logo" href="/">
-        rest of world
-      </a>
-    </div>
-    <div class="footer-menu">
-      <ul id="menu-footer-links" class="menu">
-        <li class="menu-item"><a href="https://restofworld.org/about/">About us</a></li>
-        <li class="menu-item"><a href="https://restofworld.org/about/hiring/">Jobs</a></li>
-        <li class="menu-item"><a href="https://restofworld.org/about/privacy-policy/">Privacy
-            Policy</a></li>
-        <li class="menu-item"><a href="https://restofworld.org/platforms/">Platforms</a></li>
-        <li class="menu-item"><a href="https://restofworld.org/newsletters/">Newsletters</a></li>
-        <li class="menu-item"><a href="https://restofworld.org/labs/">Labs</a></li>
-        <li class="menu-item"><a href="https://restofworld.org/about/contact-us/">Contact us</a>
-        </li>
-      </ul>
-    </div>
-    <div class="footer-copyright">&copy; Rest of World 2020&ndash;2022</div>
-  </footer>
-  
-</body>
-
+      <div class="footer-copyright">&copy; Rest of World 2020&ndash;2022</div>
+    </footer>
+  </body>
 </html>
